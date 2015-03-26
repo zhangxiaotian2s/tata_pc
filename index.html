@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>TATA</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
+	</head>
+
+	<body>
+		<a href="#" id="top"></a>
+		<div class="nav">
+			<div class="nav_bk p_100 over">
+				<div class="w_nr">
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/head_nav1.png">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/head_nav2.png">
+							</a>
+						</li>
+						<li>
+							<a href="#" onclick="doyoo.util.openChat('g=10044273');return false;">
+								<img src="images/head_nav3.png">
+							</a>
+						</li>
+						<li>
+							<a href="#bm">
+								<img src="images/head_nav4.png">
+							</a>
+						</li>
+						<li>
+							<a href="#" onclick="doyoo.util.openChat('g=10044273');return false;">
+								<img src="images/head_nav5.png">
+							</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="fwlc">
+				<div class="w_nr">
+					<a href="#">
+						<img src="images/fwlc.png" class="block">
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--banner-->
+		<div class="banner p_100">
+			<img src="images/banner.png" class="p_100 block">
+		</div>
+		<!--模块1-->
+		<div class="p_100 bkcenter" style="background-image:url(images/bk1.png);">
+			<div class="w_nr">
+				<img src="images/img01.png" class="block p_100">
+			</div>
+		</div>
+		<!--模块2-->
+		<div class=" p_100 " style="background:#eeffb3;">
+			<a href="" id="bm"></a>
+			<div class="w_nr">
+
+				<div class="bm_right">
+					<div class="bm_right_nav">
+						<img src="images/img03.png">
+					</div>
+					<div class="clear"></div>
+					<div class="bm_box">
+						<div class="bmform_box over">
+							<form id="register1">
+								<table>
+									<tr>
+										<td width="20%"><strong>姓名：</strong>
+										</td>
+										<td width="80%">
+											<input type="text" value="" class="bmform_box_text" data-check="required,username">
+										</td>
+									</tr>
+									<tr>
+										<td width="20%"><strong>手机：</strong>
+										</td>
+										<td width="80%">
+											<input type="text" value="" class="bmform_box_text" data-check="required,tel">
+										</td>
+									</tr>
+								</table>
+							</form>
+						</div>
+						<a href="javascrip:void(0)" id="sub_btn">
+							<img src="images/sub_btn.png">
+						</a>
+					</div>
+					<div class="bm_list">
+						<div class="blank10"></div>
+						<div class="bmrs">
+							<span>222222</span>人已经预约
+						</div>
+						<div class="sysj">
+							<div class="djs">
+								<span>剩余时间</span>
+								<span id="day" class="bktime">00</span>
+								<span>天</span>
+								<span id="hour" class="bktime">00</span>
+								<span>时</span>
+								<span id="minute" class="bktime">00</span>
+								<span>分</span>
+								<span id="seconds" class="bktime">00</span>
+								<span>秒</span>
+							</div>
+
+						</div>
+						<div class="clear"></div>
+						<div class="cglist">
+							<h2>最新预约成功客户</h2>
+							<div class="scroll_box" id="scroll_box">
+								<ul>
+									<li>广州李女士（3月27日已申请上门设计）</li>
+									<li>郑州孙先生（3月27日已申请上门设计）</li>
+									<li>武汉赵先生（3月27日已申请上门设计）</li>
+									<li>上海孟女士（3月27日已申请上门设计）</li>
+									<li>天津孙女士（3月27日已申请上门设计）</li>
+									<li>承德刘女士（3月27日已申请上门设计）</li>
+
+								</ul>
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+				<div class="bm_left">
+					<img src="images/img02.png">
+				</div>
+
+			</div>
+			<div class="blank30"></div>
+			<div class="blank20"></div>
+		</div>
+		<!--模块3-->
+		<div class="p_100 bkcenter bkrepeat-y over" style="background: #c8e571 url(images/bk2.png)">
+			<div class="w_nr">
+				<div class="blank30"></div>
+				<img src="images/img04.png" class="block p_100">
+				<img src="images/img05.png" class="block p_100">
+				<img src="images/img06.png" class="block p_100">
+				<img src="images/img07.png" class="block p_100">
+			</div>
+		</div>
+		<!--模块4-->
+		<div class="p_100 over" style="background: #d2fbf8 ">
+			<div class="w_nr">
+				<div class="sjs_1">
+				<img src="images/img08.png" class=" p_100 block">
+				<a href="#bm"></a>
+				</div>
+					<div class="sjs_2">
+				<img src="images/img09.png" class=" p_100 block">
+				<a href="#bm"></a>
+				</div>
+					<div class="sjs_3">
+				<img src="images/img10.png" class=" p_100 block">
+				<a href="#bm"></a>
+				</div>
+				
+			</div>
+		</div>
+		<!--模块5-->
+		<div class="p_100 over bkcenter  bkcover" style=" background-image:url(images/bk3.png) ;">
+			<div class="blank30"></div>
+			<div class="blank20"></div>
+			<div class="w_nr">
+				<img src="images/img11.png">
+			</div>
+		</div>
+		<!--模块6-->
+		<div class="p_100 " style=" background:#d1f4d1 ;">
+			<div class="w_nr">
+				<img src="images/img12.png" class="p_100 block">
+			</div>
+		</div>
+		<!--模块7-->
+		<div class="p_100 " style=" background:#fff ;">
+			<div class="w_nr">
+				<img src="images/img13.png" class="p_100 block">
+				<img src="images/img14.png" class="p_100 block">
+				<img src="images/img16.png" class="p_100 block">
+				<img src="images/img17.png" class="p_100 block">
+				<img src="images/img18.png" class="p_100 block">
+				<img src="images/img19.png" class="p_100 block">
+			</div>
+		</div>
+
+		<div class="foot p_100">
+			<div class="w_nr">
+				<img src="images/foot_img.png" class="p_100 block">
+			</div>
+			<div class="bk_top p_100" style="background: #858383;">
+				<a href="#top">
+					<img src="images/go_top.png" class="block">
+				</a>
+
+			</div>
+
+		</div>
+		<script type="text/javascript" src="js/jquery.phone.myvalidate.js" ></script>
+		<script>
+			form_validate("#register1")
+			 $("#sub_btn").click(function() {
+				$("#register1 input[type='text']").trigger('blur');
+				//				if ($("#province").val() == 0) {
+				//					$("#area_error").addClass("error_yellow").html("请选择城市")
+				//				}
+				if ($("#register1").find(".error_red").length > 0) {
+					return false
+				} else {
+					$.ajax({
+						type: "get",
+						url: "http://www.baidu.com",
+						success: function(data) {
+							//							if (data.msg == success) {
+							alert("报名成功")
+								//							} else {
+								//								alert("报名失败")
+								//							}
+						},
+						error: function() {
+							alert("提交出现错误")
+							var number_text = $("#number_yue").html()
+							$("#number_yue").html(parseInt(number_text) + 1)
+						}
+					});
+				}
+			})
+			  $(document).ready(function() {
+				//lazy.load
+				$("img").lazyload({
+					effect: "fadeIn"
+				});
+				//滚动
+				var cont = $("#scroll_box ul");
+				setInterval(moveup, 1000);
+
+				function moveup() {
+						var cont_li = cont.children("li");
+						var cont_li_first = cont_li.first();
+						var cont_li_first_cp = cont_li_first
+						cont_li_first.slideUp(500, function() {
+							cont_li_first_cp.appendTo(cont).show()
+						})
+					}
+					//倒计时
+				var settime = "1427817600"
+				var nowtime = (Date.parse(new Date()) / 1000);
+				setInterval(function() {
+
+					djs(settime, nowtime)
+					nowtime += 1;
+				}, 1000)
+
+				function djs(settime, nowtime) {
+					var count_time = settime - nowtime,
+						day = parseInt(count_time / (60 * 60 * 24)),
+						house = parseInt(count_time / (60 * 60) - (day * 24)),
+						minute = parseInt(count_time / (60) - (day * 24 * 60 + house * 60)),
+						second = parseInt(count_time - (day * 24 * 60 * 60 + house * 60 * 60 + minute * 60));
+					$("#day").html(day);
+					$("#hour").html(house)
+					$("#minute").html(minute)
+					$("#seconds").html(second)
+				}
+			})
+		</script>
+		<div class="piaofu" style=" width:200px; height:150px; position:fixed; bottom:10px; top:400px; left:0; z-index:100000; border:0px; ">
+			<script type="text/javascript">
+				var chatService, imgUrl, phoneUrl;
+
+				function talk99Init(conf) {
+					chatService = conf.env.chat;
+					phoneUrl = chatService + '/call';
+				}
+				var jsonRequest = (function() {
+					var calling = false;
+					return function(url) {
+						if (calling) {
+							return;
+						}
+						calling = true;
+						var existEle = document.getElementById(url);
+						if (existEle) {
+							document.body.removeChild(existEle);
+						}
+						var u = url + '&x=' + (+new Date()),
+							h = document.getElementsByTagName('head')[0],
+							s = document.createElement('script');
+						s.setAttribute('type', 'text/javascript');
+						s.setAttribute('src', url);
+
+						s.onreadystatechange = s.onload = function() {
+							calling = false;
+						};
+						document.body.appendChild(s);
+					};
+				})();
+				var phoneCallback = function(resp) {
+					if (resp.error) {
+						switch (resp.error) {
+							case 'needLicence':
+								alert("免费电话授权已消费完，需充值后才能呼叫");
+								break;
+							case 'invalidNumber':
+								alert("错误的访客或者客服电话号码");
+								break;
+							case 'phoneBlocked':
+								alert("该访客电话或者Ip呼叫太多，已被屏蔽");
+								break;
+							case 'freqCall':
+								alert("该访客电话呼叫太频繁，短时间不可再呼叫");
+								break;
+							case 'unknownError':
+								alert("其他错误（如电话关机，繁忙）");
+								break;
+						}
+					} else {
+						alert("连接中，请稍等……")
+					}
+				};
+				var phoneCall = function(n) {
+					var companyId = 20000163; //talk99公司id
+					var tarUser = 'tatazhangc'; //客服id
+					var cb = "phoneCallback";
+					var param = "c=" + companyId + "&n=" + tarUser + "&cb=" + cb + "&phone=" + n;
+					if (!n.match(/^(((1[0-9][0-9]{1}))+\d{8})$/)) {
+						alert("您输入的号码错误，请确认输入是否正确!");
+						return false;
+					}
+					jsonRequest(phoneUrl + "?" + param);
+				}
+				jQuery(function() {
+					jQuery('#phone').bind({
+						focus: function() {
+							if (this.value == this.defaultValue) {
+								this.value = '';
+							}
+						},
+						blur: function() {
+							if (this.value == '') {
+								this.value = this.defaultValue;
+							}
+						}
+					});
+				});
+			</script>
+			<div id="m">
+				<input onblur="if(this.value =='') this.value = '请输入您的电话号码'" onfocus="if(this.value == '请输入您的电话号码') this.value = ''" name="phone" value="请输入您的电话号码" id="phone" type="text">
+				<img style="margin:5px 45px 0 0; float:right;cursor:pointer;" src="http://img.talk99.cn/menghu/mf_an.png" onclick="phoneCall(document.getElementById('phone').value)" />
+			</div>
+		</div>
+		<script type="text/javascript" src="http://lead.soperson.com/20000163/10039175.js"></script>
+	</body>
+
+</html>

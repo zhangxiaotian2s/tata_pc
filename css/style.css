@@ -1,0 +1,89 @@
+*{ margin: 0; padding: 0; font-family: "微软雅黑",verdana;}
+li{ list-style: none;}
+a{ text-decoration: none;}
+img{border: none;}
+input ,select{outline: none}
+
+.clear{ clear:both; height: 0px;  overflow:  hidden;}
+.p_100{ width: 100%;}
+.w_nr{ width: 1200px; margin: 0 auto;} 
+.hidden{ display: none;}
+.over{  overflow: hidden;}
+.block{display: block;}
+.bkcover{background-size: cover;}
+.bkcenter{background-position:center;}
+.bkrepeat-y{ background-repeat: repeat-y ;}
+
+.error_red{ color: #B11818;}
+
+.blank10{  height: 10px; overflow: hidden; clear: both;}
+.blank20{  height: 20px; overflow: hidden; clear: both;}
+.blank30{  height: 30px; overflow: hidden; clear: both;}
+
+.nav_bk{background: #b11818;}
+.nav_bk img{ display: block;}
+.nav_bk ul{margin-left: 140px;}
+.nav_bk ul li{ float: left; margin:10px 20px; display: inline;}
+.fwlc img{ width: 75%; margin-left: 140px; }
+
+
+.foot{ border-top: #bebdbd solid 1px;}
+
+.bk_top a{ display: block;  width: 100%; height: 100%;} 
+.bk_top a img{margin:   auto;}
+
+
+
+.bm_left{width:452px; float: left; overflow: hidden;}
+.bm_right{float: right;}
+.bm_right_nav{ margin-top: 30px;}
+
+.bm_box{ background: url(../images/bm_bk.png); width: 363px; height: 281px; margin-top: 60px; overflow: hidden; float: left;}
+.bm_list{ float:left; width: 310px; height: 230px; background: #676454; margin-top: 95px;}
+
+
+ 
+.bmform_box{width: 310px; padding-left: 10px;  margin: 40px auto 20px; background: #ffdf87; height: 150px;}
+.bmform_box table tr td{ height: 75px;}
+.bmform_box table tr td strong{ font-size: 24px;  white-space: nowrap;}
+.bmform_box table tr td  input{width: 80%; height: 31px; border: none; padding-left: 10px;}
+#sub_btn { display: block; width: 100%;}
+#sub_btn img{ display: block; margin: 0 auto;}
+
+
+.bmrs{ width: 220px; margin: 0 auto; border-bottom: #ffe600 solid 2px; height: 28px; line-height: 28x; text-align: right;;  font-size: 18px; color: #fff; padding-right: 20px;}
+.bmrs span { color: #ffdf87; font-size: 22px; padding: 0px 10px;}
+.sysj{ width: 230px; margin: 5px auto 2px; font-size: 14px; line-height: 24px;  white-space: nowrap;}
+
+.sysj span{ display: block; float:left;}
+.bktime{ background: #FFFFFF; padding: 0px 2px; margin: 0px 1px; display: inline;} 
+
+.cglist h2{ font-size: 14px; color: #FFFFFF; margin: 5px auto; text-align: center;}
+
+.cglist .scroll_box{width: 230px; background: #FFFFFF; margin: auto; height: 126px; overflow: hidden;}
+.cglist .scroll_box ul li{ height: 26px;  line-height: 26px; font-size: 12px; padding-left: 4px;}
+
+
+#m{
+    background:url(../images/phonebk.png) no-repeat;
+    width: 200px;
+    height: 150px;
+}
+#phone {
+    border: 1px solid #1E8A00;
+    height: 30px;
+    line-height: 22px;
+    margin-left: 40px;
+    margin-top: 85px;
+    text-indent: 4px;
+    width: 130px;
+}
+
+
+.sjs_1{ position: relative; overflow: hidden; }
+.sjs_1 a{ display: block; width: 240px; height: 100px; position: absolute; left: 0px; bottom: 20px;}
+.sjs_2{ position: relative; overflow: hidden; }
+.sjs_2 a{ display: block; width: 300px; height: 120px; position: absolute; right: 0px; bottom: 120px;}  
+
+.sjs_3{ position: relative; overflow: hidden; }
+.sjs_3 a{ display: block; width: 240px; height: 100px; position: absolute; left: 0px; bottom: 160px;}

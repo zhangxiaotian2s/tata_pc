@@ -101,7 +101,7 @@
 					<div class="bm_list">
 						<div class="blank10"></div>
 						<div class="bmrs">
-							<span>222222</span>人已经预约
+							<span id="number_yue">222222</span>人已经预约
 						</div>
 						<div class="sysj">
 							<div class="djs">
@@ -159,18 +159,18 @@
 		<div class="p_100 over" style="background: #d2fbf8 ">
 			<div class="w_nr">
 				<div class="sjs_1">
-				<img src="images/img08.png" class=" p_100 block">
-				<a href="#bm"></a>
+					<img src="images/img08.png" class=" p_100 block">
+					<a href="#bm"></a>
 				</div>
-					<div class="sjs_2">
-				<img src="images/img09.png" class=" p_100 block">
-				<a href="#bm"></a>
+				<div class="sjs_2">
+					<img src="images/img09.png" class=" p_100 block">
+					<a href="#bm"></a>
 				</div>
-					<div class="sjs_3">
-				<img src="images/img10.png" class=" p_100 block">
-				<a href="#bm"></a>
+				<div class="sjs_3">
+					<img src="images/img10.png" class=" p_100 block">
+					<a href="#bm"></a>
 				</div>
-				
+
 			</div>
 		</div>
 		<!--模块5-->
@@ -211,14 +211,47 @@
 			</div>
 
 		</div>
-		<script type="text/javascript" src="js/jquery.phone.myvalidate.js" ></script>
+		<div class="blank30"></div>
+		<div class="blank10"></div>
+		<div class="foot_fix p_100">
+			<div class="w_nr">
+				<div class="foot_fix_left">
+					<img src="images/foot_fix01.png" class="block">
+				</div>
+				<div class="foot_fix_bm">
+						<form id="register2">
+							<table width="600">
+								<tr>
+									<td width="10%"><strong>姓名：</strong>
+									</td>
+									<td width="20%">
+										<input type="text" name="" class="text" data-check="required,username">
+									</td>
+									<td width="10%"><strong>电话：</strong>
+									</td>
+									<td width="20%">
+										<input type="text" name="" class="text" data-check="required,tel">
+									</td>
+									<td width="16%">
+										<input type="button" id="sub_btn2" class="btn">
+									</td>
+								</tr>
+							</table>
+						</form>
+					<img>
+				</div>
+
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="js/jquery.phone.myvalidate.js"></script>
 		<script>
 			form_validate("#register1")
+			form_validate("#register2")
+			
 			 $("#sub_btn").click(function() {
 				$("#register1 input[type='text']").trigger('blur');
-				//				if ($("#province").val() == 0) {
-				//					$("#area_error").addClass("error_yellow").html("请选择城市")
-				//				}
 				if ($("#register1").find(".error_red").length > 0) {
 					return false
 				} else {
@@ -226,20 +259,39 @@
 						type: "get",
 						url: "http://www.baidu.com",
 						success: function(data) {
-							//							if (data.msg == success) {
 							alert("报名成功")
-								//							} else {
-								//								alert("报名失败")
-								//							}
+							var number_text = $("#number_yue").html()
+							$("#number_yue").html(parseInt(number_text) + 1)
 						},
 						error: function() {
 							alert("提交出现错误")
-							var number_text = $("#number_yue").html()
-							$("#number_yue").html(parseInt(number_text) + 1)
+						
 						}
 					});
 				}
 			})
+			  $("#sub_btn2").click(function() {
+				$("#register2 input[type='text']").trigger('blur');
+				if ($("#register2").find(".error_red").length > 0) {
+					return false
+				} else {
+					$.ajax({
+						type: "get",
+						url: "http://www.baidu.com",
+						success: function(data) {
+							alert("报名成功")
+							var number_text = $("#number_yue").html()
+							$("#number_yue").html(parseInt(number_text) + 1)
+						},
+						error: function() {
+							alert("提交出现错误")
+						
+						}
+					});
+				}
+			})
+			 
+			 
 			  $(document).ready(function() {
 				//lazy.load
 				$("img").lazyload({
@@ -279,6 +331,7 @@
 				}
 			})
 		</script>
+
 		<div class="piaofu" style=" width:200px; height:150px; position:fixed; bottom:10px; top:400px; left:0; z-index:100000; border:0px; ">
 			<script type="text/javascript">
 				var chatService, imgUrl, phoneUrl;

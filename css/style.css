@@ -6,7 +6,7 @@ input ,select{outline: none}
 
 .clear{ clear:both; height: 0px;  overflow:  hidden;}
 .p_100{ width: 100%;}
-.w_nr{ width: 1200px; margin: 0 auto;} 
+.w_nr{ width: 1000px; margin: 0 auto;} 
 .hidden{ display: none;}
 .over{  overflow: hidden;}
 .block{display: block;}
@@ -22,9 +22,9 @@ input ,select{outline: none}
 
 .nav_bk{background: #b11818;}
 .nav_bk img{ display: block;}
-.nav_bk ul{margin-left: 140px;}
+.nav_bk ul{margin-left: 0px;}
 .nav_bk ul li{ float: left; margin:10px 20px; display: inline;}
-.fwlc img{ width: 75%; margin-left: 140px; }
+.fwlc img{ width: 90%; margin-left: 0px; }
 
 
 .foot{ border-top: #bebdbd solid 1px;}
@@ -34,17 +34,17 @@ input ,select{outline: none}
 
 
 
-.bm_left{width:452px; float: left; overflow: hidden;}
+.bm_left{width:400px; float: left; overflow: hidden;}
 .bm_right{float: right;}
 .bm_right_nav{ margin-top: 30px;}
 
-.bm_box{ background: url(../images/bm_bk.png); width: 363px; height: 281px; margin-top: 60px; overflow: hidden; float: left;}
-.bm_list{ float:left; width: 310px; height: 230px; background: #676454; margin-top: 95px;}
+.bm_box{ background: url(../images/bm_bk.png); width: 302px; height: 234px; margin-top: 45px; overflow: hidden; float: left;}
+.bm_list{ float:left; width: 280px; height: 200px; background: #676454; margin-top: 70px;}
 
 
  
-.bmform_box{width: 310px; padding-left: 10px;  margin: 40px auto 20px; background: #ffdf87; height: 150px;}
-.bmform_box table tr td{ height: 75px;}
+.bmform_box{width: 240px; padding-left: 10px;  margin: 40px auto 20px; background: #ffdf87; height: 120px;}
+.bmform_box table tr td{ height: 60px;}
 .bmform_box table tr td strong{ font-size: 24px;  white-space: nowrap;}
 .bmform_box table tr td  input{width: 80%; height: 31px; border: none; padding-left: 10px;}
 #sub_btn { display: block; width: 100%;}
@@ -60,7 +60,7 @@ input ,select{outline: none}
 
 .cglist h2{ font-size: 14px; color: #FFFFFF; margin: 5px auto; text-align: center;}
 
-.cglist .scroll_box{width: 230px; background: #FFFFFF; margin: auto; height: 126px; overflow: hidden;}
+.cglist .scroll_box{width: 230px; background: #FFFFFF; margin: auto; height: 100px; overflow: hidden;}
 .cglist .scroll_box ul li{ height: 26px;  line-height: 26px; font-size: 12px; padding-left: 4px;}
 
 
